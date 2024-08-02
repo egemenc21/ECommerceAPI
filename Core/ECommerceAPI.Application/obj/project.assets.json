@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "ECommerceAPI.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ECommerceAPI.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ECommerceAPI.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ECommerceAPI.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ECommerceAPI.Domain/ECommerceAPI.Domain.csproj",
+      "msbuildProject": "../ECommerceAPI.Domain/ECommerceAPI.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "ECommerceAPI.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/egemenc/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Application/ECommerceAPI.Application.csproj",
+      "projectName": "ECommerceAPI.Application",
+      "projectPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Application/ECommerceAPI.Application.csproj",
+      "packagesPath": "/home/egemenc/.nuget/packages/",
+      "outputPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/egemenc/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj": {
+              "projectPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Persistence.deps.json
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Persistence.dll
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Persistence.pdb
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Application.dll
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Domain.dll
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Application.pdb
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Domain.pdb
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.csproj.AssemblyReference.cache
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.AssemblyInfoInputs.cache
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.AssemblyInfo.cs
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.csproj.CoreCompileInputs.cache
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.csproj.CopyComplete
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.dll
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/refint/ECommerceAPI.Persistence.dll
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.pdb
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ref/ECommerceAPI.Persistence.dll

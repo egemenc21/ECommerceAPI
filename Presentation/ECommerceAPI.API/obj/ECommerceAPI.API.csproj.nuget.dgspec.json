@@ -1,0 +1,272 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/ECommerceAPI.API.csproj": {}
+  },
+  "projects": {
+    "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Application/ECommerceAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Application/ECommerceAPI.Application.csproj",
+        "projectName": "ECommerceAPI.Application",
+        "projectPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Application/ECommerceAPI.Application.csproj",
+        "packagesPath": "/home/egemenc/.nuget/packages/",
+        "outputPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/egemenc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj": {
+                "projectPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj",
+        "projectName": "ECommerceAPI.Domain",
+        "projectPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj",
+        "packagesPath": "/home/egemenc/.nuget/packages/",
+        "outputPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/egemenc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/ECommerceAPI.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/ECommerceAPI.Persistence.csproj",
+        "projectName": "ECommerceAPI.Persistence",
+        "projectPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/ECommerceAPI.Persistence.csproj",
+        "packagesPath": "/home/egemenc/.nuget/packages/",
+        "outputPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/egemenc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Application/ECommerceAPI.Application.csproj": {
+                "projectPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Application/ECommerceAPI.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/ECommerceAPI.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/ECommerceAPI.API.csproj",
+        "projectName": "ECommerceAPI.API",
+        "projectPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/ECommerceAPI.API.csproj",
+        "packagesPath": "/home/egemenc/.nuget/packages/",
+        "outputPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/egemenc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Application/ECommerceAPI.Application.csproj": {
+                "projectPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Application/ECommerceAPI.Application.csproj"
+              },
+              "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/ECommerceAPI.Persistence.csproj": {
+                "projectPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/ECommerceAPI.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
