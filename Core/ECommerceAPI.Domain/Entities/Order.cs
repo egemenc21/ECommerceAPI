@@ -6,7 +6,6 @@ public class Order : BaseEntity
 {
     public string Description { get; set; }
     public string Address { get; set; }
-    public int CustomerId { get; set; }
     
     //Relations
     public ICollection<Product> Products { get; set; }
