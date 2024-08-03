@@ -1,6 +1,7 @@
 using ECommerceAPI.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 
 namespace ECommerceAPI.Persistence;
 
@@ -10,8 +11,7 @@ public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<ECommerceA
     {
         DbContextOptionsBuilder<ECommerceApiDbContext> dbContextOptionsBuilder = new();
 
-        dbContextOptionsBuilder.UseNpgsql(
-            "User ID=postgres;Password=415987;Host=localhost;Port=5432;Database=e_commerce_db;");
+        dbContextOptionsBuilder.UseNpgsql(Configuration.ConnectionString);
         return new(dbContextOptionsBuilder.Options);
     }
 }
