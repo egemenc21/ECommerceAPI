@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p/mqH1TNdx2yUZZuH/vpUF6cAv4S3BO4ZC99rsPX2qRgqZOv21BUxy2hCSBJ1uPuKmQKA4a181f+GFqQpE+9ow==",
+  "dgSpecHash": "zItskjTIOTbtvDLk0gMzPWSlB/TkZJ5wOpYOWAn3wnOdfRVKgpCLrv8jeYrOLnzgxS0Vqqo8H6EDVXix+EU3NA==",
   "success": true,
   "projectFilePath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/ECommerceAPI.API.csproj",
   "expectedPackageFiles": [

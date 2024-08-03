@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O6kmUn0YEfl5Q3VCl/2JqYz47NbjdMDkG8sBzW5/gPxfOaHwyGtINelZhMxvOwBz87wfp3F4FagU3Cl0VikGcg==",
+  "dgSpecHash": "HIe+cKRmegP/tG5/T2WumyNLHDmW91u9xsrTuMurhXabCLWqqsKhXD9iGAf4ABlb6VHqW0JEy0UXGr16xiRy8A==",
   "success": true,
   "projectFilePath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/ECommerceAPI.Persistence.csproj",
   "expectedPackageFiles": [
