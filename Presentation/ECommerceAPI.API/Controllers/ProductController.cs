@@ -14,37 +14,29 @@ namespace ECommerceAPI.API.Controllers
     {
         private readonly IProductWriteRepository _productWriteRepository;
         private readonly IProductReadRepository _productReadRepository;
+        private readonly IOrderWriteRepository _orderWriteRepository;
+        private readonly ICustomerWriteRepository _customerWriteRepository;
+        private readonly IOrderReadRepository _orderReadRepository;
+        
+
 
         public ProductController(IProductWriteRepository productWriteRepository,
-            IProductReadRepository productReadRepository)
+            IProductReadRepository productReadRepository, IOrderWriteRepository orderWriteRepository,
+            ICustomerWriteRepository customerWriteRepository, IOrderReadRepository orderReadRepository)
         {
             _productWriteRepository = productWriteRepository;
             _productReadRepository = productReadRepository;
+            _orderWriteRepository = orderWriteRepository;
+            _customerWriteRepository = customerWriteRepository;
+            _orderReadRepository = orderReadRepository;
         }
 
         [HttpGet()]
         public async Task Get()
         {
-            // await _productWriteRepository.AddRangeAsync(new()
-            // {
-            //     new()
-            //     {
-            //         Id = Guid.NewGuid(), Name = "Product 1", Price = 100, CreatedDateTime = DateTime.UtcNow, Stock = 10
-            //     },
-            //     new()
-            //     {
-            //         Id = Guid.NewGuid(), Name = "Product 2", Price = 200, CreatedDateTime = DateTime.UtcNow, Stock = 10
-            //     },
-            //     new()
-            //     {
-            //         Id = Guid.NewGuid(), Name = "Product 3", Price = 300, CreatedDateTime = DateTime.UtcNow, Stock = 10
-            //     },
-            // });
-            // await _productWriteRepository.SaveAsync();
-            var p = await _productReadRepository.GetByIdAsync("ca3ea3b7-5cff-471e-9a4c-cb0e5e4f220c", false);
-            p.Name = "Mehmet"; //changes will no longer effect the database because tracking is false.
-            await _productWriteRepository.SaveAsync();
-
+            var order = await _orderReadRepository.GetByIdAsync("1f008126-42cb-4aae-a4f1-209dbeb4f3f0");
+            order.Address = "istanbul";
+            await _orderWriteRepository.SaveAsync();
         }
 
         [HttpGet("{id}")]
@@ -53,6 +45,5 @@ namespace ECommerceAPI.API.Controllers
             var p = await _productReadRepository.GetByIdAsync(id);
             return Ok(p);
         }
-        
     }
 }
