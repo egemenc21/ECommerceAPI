@@ -32,17 +32,15 @@ namespace ECommerceAPI.API.Controllers
         }
 
         [HttpGet()]
-        public async Task Get()
+        public async Task<IActionResult> Get()
         {
-            var order = await _orderReadRepository.GetByIdAsync("1f008126-42cb-4aae-a4f1-209dbeb4f3f0");
-            order.Address = "istanbul";
-            await _orderWriteRepository.SaveAsync();
+            return Ok("merhaba");
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetByIdAsync(string id)
         {
-            var p = await _productReadRepository.GetByIdAsync(id);
+            var p = await _orderReadRepository.GetByIdAsync(id);
             return Ok(p);
         }
     }
