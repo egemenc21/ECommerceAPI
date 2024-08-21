@@ -12,7 +12,7 @@ internal static class Configuration
             configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(),
                 "../../Presentation/ECommerceAPI.API"));
             configurationManager.AddJsonFile("appsettings.json");
-            return configurationManager.GetConnectionString("PostgresSQL");
+            return configurationManager.GetConnectionString("PostgresSQLCloud");
         }
     }
 

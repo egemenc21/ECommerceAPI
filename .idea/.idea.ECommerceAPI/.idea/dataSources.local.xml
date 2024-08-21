@@ -16,5 +16,20 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="e-commerce-db@45.147.46.45" uuid="5b15c4da-31a7-41c3-8fa5-2b1f62ce9e30">
+      <database-info product="PostgreSQL" version="13.16 (Debian 13.16-0+deb11u1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.6.0" dbms="POSTGRES" exact-version="13.16" exact-driver-version="42.6">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
   </component>
 </project>

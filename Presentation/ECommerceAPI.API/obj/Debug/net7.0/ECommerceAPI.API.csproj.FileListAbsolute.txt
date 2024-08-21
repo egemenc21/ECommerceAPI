@@ -237,3 +237,8 @@
 /home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
 /home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/bin/Debug/net7.0/Mono.TextTemplating.dll
 /home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/bin/Debug/net7.0/System.CodeDom.dll
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/bin/Debug/net7.0/FluentValidation.dll
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/bin/Debug/net7.0/FluentValidation.AspNetCore.dll
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.Infrastructure.dll
+/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.Infrastructure.pdb

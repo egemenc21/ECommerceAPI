@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "QBdvv0C/H36J3bc8gncjook8zolGZpEFj41+ec9Syg9CcVLPr77RMF82Vl/Wb3K/UeWiNZvivbQCmkYd565gnw==",
+  "dgSpecHash": "TNQi6vzHhmyS9mSYqcgqlgnUfpUyfOjo/HKmiYTimToVOyU0nE04bQGIrS1oHgGEG7fAB0rxKF0I+lTz6hZYBQ==",
   "success": true,
   "projectFilePath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Infrastructure/ECommerceAPI.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "/home/egemenc/.nuget/packages/fluentvalidation/11.9.2/fluentvalidation.11.9.2.nupkg.sha512",
+    "/home/egemenc/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/home/egemenc/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.9.2/fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
     "/home/egemenc/.nuget/packages/microsoft.entityframeworkcore/7.0.14/microsoft.entityframeworkcore.7.0.14.nupkg.sha512",
     "/home/egemenc/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.14/microsoft.entityframeworkcore.abstractions.7.0.14.nupkg.sha512",
     "/home/egemenc/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.14/microsoft.entityframeworkcore.analyzers.7.0.14.nupkg.sha512",
