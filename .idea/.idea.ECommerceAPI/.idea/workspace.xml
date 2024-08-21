@@ -10,78 +10,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62772839-5f76-48f8-a673-81053ff11097" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/Validators/Products/CreateProductValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Infrastructure/Filters/ValidationFilter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ECommerceAPI/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ECommerceAPI/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ECommerceAPI/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ECommerceAPI/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ECommerceAPI/.idea/dataSources/7bd988b8-367f-415f-806f-bc7a4f40dbad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ECommerceAPI/.idea/dataSources/7bd988b8-367f-415f-806f-bc7a4f40dbad.xml" afterDir="false" />
+    <list default="true" id="62772839-5f76-48f8-a673-81053ff11097" name="Changes" comment="Added Validation with Fluent Validation to CreateProduct View Model&#10;Configured custom filter system">
+      <change afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/RequestParameters/Pagination.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ECommerceAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ECommerceAPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/ECommerceAPI.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/ECommerceAPI.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/bin/Debug/net7.0/ECommerceAPI.Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/bin/Debug/net7.0/ECommerceAPI.Application.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/bin/Debug/net7.0/ECommerceAPI.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/bin/Debug/net7.0/ECommerceAPI.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/bin/Debug/net7.0/ECommerceAPI.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/bin/Debug/net7.0/ECommerceAPI.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/Debug/net7.0/ECommerceAPI.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/Debug/net7.0/ECommerceAPI.Application.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/Debug/net7.0/ECommerceAPI.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/Debug/net7.0/ECommerceAPI.Application.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/Debug/net7.0/ECommerceAPI.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/Debug/net7.0/ECommerceAPI.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/Debug/net7.0/ECommerceAPI.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/Debug/net7.0/ECommerceAPI.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/Debug/net7.0/ECommerceAPI.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/Debug/net7.0/ECommerceAPI.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/Debug/net7.0/ref/ECommerceAPI.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/Debug/net7.0/ref/ECommerceAPI.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/Debug/net7.0/refint/ECommerceAPI.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/Debug/net7.0/refint/ECommerceAPI.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/ECommerceAPI.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/ECommerceAPI.Application.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/ECommerceAPI.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ECommerceAPI.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Infrastructure/obj/Debug/net7.0/ECommerceAPI.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Infrastructure/obj/Debug/net7.0/ECommerceAPI.Infrastructure.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Infrastructure/obj/Debug/net7.0/ECommerceAPI.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Infrastructure/obj/Debug/net7.0/ECommerceAPI.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Infrastructure/obj/ECommerceAPI.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Infrastructure/obj/ECommerceAPI.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Infrastructure/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/Configuration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/Configuration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Persistence.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Persistence.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/bin/Debug/net7.0/ECommerceAPI.Persistence.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/Debug/net7.0/ECommerceAPI.Persistence.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/ECommerceAPI.Persistence.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/ECommerceAPI.Persistence.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/ECommerceAPI.Persistence/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/Controllers/ProductController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/ECommerceAPI.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/ECommerceAPI.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.API.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/ECommerceAPI.Persistence.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/bin/Debug/net7.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ECommerceAPI.API.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ECommerceAPI.API.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ECommerceAPI.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ECommerceAPI.API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ECommerceAPI.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ECommerceAPI.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ECommerceAPI.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ECommerceAPI.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ECommerceAPI.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ECommerceAPI.API.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ECommerceAPI.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ECommerceAPI.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ECommerceAPI.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ECommerceAPI.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ref/ECommerceAPI.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/ref/ECommerceAPI.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/refint/ECommerceAPI.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/Debug/net7.0/refint/ECommerceAPI.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/ECommerceAPI.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/ECommerceAPI.API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,10 +53,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42f20a5122de425497f9dfc7802be8561e2000/13/aaf6451e/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4d4973bb6e9d43cf90d9564c6748e9a7a2a200/70/7fd60e6b/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4d4973bb6e9d43cf90d9564c6748e9a7a2a200/70/7fd60e6b/List`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4d4973bb6e9d43cf90d9564c6748e9a7a2a200/81/25636078/AsyncValueTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4d4973bb6e9d43cf90d9564c6748e9a7a2a200/b9/592f1097/Guid.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9536d547332d48b4a1fa6d344d253c3d6e80/1b/cd043ddf/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -236,6 +192,7 @@
       <workItem from="1723831989218" duration="1007000" />
       <workItem from="1724071919060" duration="1347000" />
       <workItem from="1724143408850" duration="8619000" />
+      <workItem from="1724233583751" duration="5981000" />
     </task>
     <task id="LOCAL-00001" summary="Database Migration has been added to the Docker PostgresSQL databse">
       <option name="closed" value="true" />
@@ -309,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723468623603</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added Validation with Fluent Validation to CreateProduct View Model&#10;Configured custom filter system">
+      <option name="closed" value="true" />
+      <created>1724233799198</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724233799198</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +292,8 @@
     <MESSAGE value="Integration of SaveChangeAsync Interceptor" />
     <MESSAGE value="Added Cors Policy" />
     <MESSAGE value="Added ViewModels for specifying return types&#10;Added Basic CRUD operations for Products model (Get, Post, Put, Delete)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ViewModels for specifying return types&#10;Added Basic CRUD operations for Products model (Get, Post, Put, Delete)" />
+    <MESSAGE value="Added Validation with Fluent Validation to CreateProduct View Model&#10;Configured custom filter system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Validation with Fluent Validation to CreateProduct View Model&#10;Configured custom filter system" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -344,19 +310,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Presentation/ECommerceAPI.API/Controllers/ProductController.cs</url>
-          <line>44</line>
-          <properties documentPath="$PROJECT_DIR$/Presentation/ECommerceAPI.API/Controllers/ProductController.cs" containingFunctionPresentation="Method 'Post'">
-            <startOffsets>
-              <option value="1455" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1478" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
