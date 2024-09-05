@@ -10,3 +10,15 @@
 /home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/obj/Debug/net7.0/refint/ECommerceAPI.Domain.dll
 /home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/obj/Debug/net7.0/ECommerceAPI.Domain.pdb
 /home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/obj/Debug/net7.0/ref/ECommerceAPI.Domain.dll
+/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/bin/Debug/net7.0/ECommerceAPI.Domain.deps.json
+/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/bin/Debug/net7.0/ECommerceAPI.Domain.dll
+/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/bin/Debug/net7.0/ECommerceAPI.Domain.pdb
+/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/obj/Debug/net7.0/ECommerceAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/obj/Debug/net7.0/ECommerceAPI.Domain.AssemblyInfoInputs.cache
+/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/obj/Debug/net7.0/ECommerceAPI.Domain.AssemblyInfo.cs
+/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/obj/Debug/net7.0/ECommerceAPI.Domain.csproj.CoreCompileInputs.cache
+/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/obj/Debug/net7.0/ECommerceAPI.Domain.sourcelink.json
+/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/obj/Debug/net7.0/ECommerceAPI.Domain.dll
+/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/obj/Debug/net7.0/refint/ECommerceAPI.Domain.dll
+/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/obj/Debug/net7.0/ECommerceAPI.Domain.pdb
+/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/obj/Debug/net7.0/ref/ECommerceAPI.Domain.dll

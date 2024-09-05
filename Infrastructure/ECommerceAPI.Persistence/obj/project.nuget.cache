@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jf+aepQwacE6E/jUZL7aCVnnRQuBcSOfGPk8LoSL3Vp+iGbwvzKq6/GB0e6YhBz5VO6apILBysu4iJ32b0bycg==",
+  "dgSpecHash": "gZ0J0pQFYMU=",
   "success": true,
-  "projectFilePath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/ECommerceAPI.Persistence.csproj",
+  "projectFilePath": "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/ECommerceAPI.Persistence.csproj",
   "expectedPackageFiles": [
     "/home/egemenc/.nuget/packages/fluentvalidation/11.9.2/fluentvalidation.11.9.2.nupkg.sha512",
     "/home/egemenc/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

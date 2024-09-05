@@ -1,16 +1,16 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net8.0": {
       "FluentValidation/11.9.2": {
         "type": "package",
         "compile": {
-          "lib/net7.0/FluentValidation.dll": {
+          "lib/net8.0/FluentValidation.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/FluentValidation.dll": {
+          "lib/net8.0/FluentValidation.dll": {
             "related": ".xml"
           }
         }
@@ -3843,7 +3843,7 @@
       },
       "ECommerceAPI.Infrastructure/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "ECommerceAPI.Application": "1.0.0"
         },
@@ -3856,7 +3856,7 @@
       },
       "ECommerceAPI.Persistence/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "ECommerceAPI.Application": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.14",
@@ -11310,7 +11310,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net8.0": [
       "ECommerceAPI.Application >= 1.0.0",
       "ECommerceAPI.Infrastructure >= 1.0.0",
       "ECommerceAPI.Persistence >= 1.0.0",
@@ -11326,33 +11326,33 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/ECommerceAPI.API.csproj",
+      "projectUniqueName": "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/ECommerceAPI.API.csproj",
       "projectName": "ECommerceAPI.API",
-      "projectPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/ECommerceAPI.API.csproj",
+      "projectPath": "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/ECommerceAPI.API.csproj",
       "packagesPath": "/home/egemenc/.nuget/packages/",
-      "outputPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/obj/",
+      "outputPath": "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Presentation/ECommerceAPI.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/egemenc/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Application/ECommerceAPI.Application.csproj": {
-              "projectPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Application/ECommerceAPI.Application.csproj"
+            "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Application/ECommerceAPI.Application.csproj": {
+              "projectPath": "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Application/ECommerceAPI.Application.csproj"
             },
-            "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Infrastructure/ECommerceAPI.Infrastructure.csproj": {
-              "projectPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Infrastructure/ECommerceAPI.Infrastructure.csproj"
+            "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Infrastructure/ECommerceAPI.Infrastructure.csproj": {
+              "projectPath": "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Infrastructure/ECommerceAPI.Infrastructure.csproj"
             },
-            "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/ECommerceAPI.Persistence.csproj": {
-              "projectPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/ECommerceAPI.Persistence.csproj"
+            "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/ECommerceAPI.Persistence.csproj": {
+              "projectPath": "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Infrastructure/ECommerceAPI.Persistence/ECommerceAPI.Persistence.csproj"
             }
           }
         }
@@ -11364,8 +11364,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
@@ -11405,7 +11405,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.107/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

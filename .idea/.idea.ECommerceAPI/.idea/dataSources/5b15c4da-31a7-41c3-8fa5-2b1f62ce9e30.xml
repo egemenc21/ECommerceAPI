@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="e-commerce-db@45.147.46.45">
-  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.52">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
     <root id="1">
       <DateStyle>mdy</DateStyle>
       <Grants>16385||-9223372036854775808|c|G
@@ -4801,31 +4801,31 @@ true posixrules
       <OwnerName>postgres</OwnerName>
     </table>
     <column id="263" parent="258" name="Id">
-      <DasType>uuid|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>uuid|0s</StoredType>
       <TypeId>2950</TypeId>
     </column>
     <column id="264" parent="258" name="Name">
-      <DasType>text|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
     <column id="265" parent="258" name="CreatedDate">
-      <DasType>timestamp with time zone|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>timestamp with time zone|0s</StoredType>
       <TypeId>1184</TypeId>
     </column>
     <column id="266" parent="258" name="UpdatedDate">
-      <DasType>timestamp with time zone|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>timestamp with time zone|0s</StoredType>
       <TypeId>1184</TypeId>
     </column>
     <index id="267" parent="258" name="PK_Customers">
@@ -4843,17 +4843,17 @@ true posixrules
       <UnderlyingIndexId>16451</UnderlyingIndexId>
     </key>
     <column id="269" parent="259" name="OrdersId">
-      <DasType>uuid|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>uuid|0s</StoredType>
       <TypeId>2950</TypeId>
     </column>
     <column id="270" parent="259" name="ProductsId">
-      <DasType>uuid|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>uuid|0s</StoredType>
       <TypeId>2950</TypeId>
     </column>
     <foreign-key id="271" parent="259" name="FK_OrderProduct_Orders_OrdersId">
@@ -4894,45 +4894,45 @@ ProductsId</ColNames>
       <UnderlyingIndexId>16477</UnderlyingIndexId>
     </key>
     <column id="276" parent="260" name="Id">
-      <DasType>uuid|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>uuid|0s</StoredType>
       <TypeId>2950</TypeId>
     </column>
     <column id="277" parent="260" name="Description">
-      <DasType>text|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
     <column id="278" parent="260" name="Address">
-      <DasType>text|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
     <column id="279" parent="260" name="CustomerId">
-      <DasType>uuid|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>uuid|0s</StoredType>
       <TypeId>2950</TypeId>
     </column>
     <column id="280" parent="260" name="CreatedDate">
-      <DasType>timestamp with time zone|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>timestamp with time zone|0s</StoredType>
       <TypeId>1184</TypeId>
     </column>
     <column id="281" parent="260" name="UpdatedDate">
-      <DasType>timestamp with time zone|0s</DasType>
       <NotNull>1</NotNull>
       <Position>6</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>timestamp with time zone|0s</StoredType>
       <TypeId>1184</TypeId>
     </column>
     <foreign-key id="282" parent="260" name="FK_Orders_Customers_CustomerId">
@@ -4964,45 +4964,45 @@ ProductsId</ColNames>
       <UnderlyingIndexId>16467</UnderlyingIndexId>
     </key>
     <column id="286" parent="261" name="Id">
-      <DasType>uuid|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>uuid|0s</StoredType>
       <TypeId>2950</TypeId>
     </column>
     <column id="287" parent="261" name="Name">
-      <DasType>text|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
     <column id="288" parent="261" name="Stock">
-      <DasType>integer|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
     <column id="289" parent="261" name="Price">
-      <DasType>real|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>real|0s</StoredType>
       <TypeId>700</TypeId>
     </column>
     <column id="290" parent="261" name="CreatedDate">
-      <DasType>timestamp with time zone|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>timestamp with time zone|0s</StoredType>
       <TypeId>1184</TypeId>
     </column>
     <column id="291" parent="261" name="UpdatedDate">
-      <DasType>timestamp with time zone|0s</DasType>
       <NotNull>1</NotNull>
       <Position>6</Position>
       <StateNumber>503</StateNumber>
+      <StoredType>timestamp with time zone|0s</StoredType>
       <TypeId>1184</TypeId>
     </column>
     <index id="292" parent="261" name="PK_Products">
@@ -5020,17 +5020,17 @@ ProductsId</ColNames>
       <UnderlyingIndexId>16459</UnderlyingIndexId>
     </key>
     <column id="294" parent="262" name="MigrationId">
-      <DasType>varchar(150)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>502</StateNumber>
+      <StoredType>varchar(150)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="295" parent="262" name="ProductVersion">
-      <DasType>varchar(32)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>502</StateNumber>
+      <StoredType>varchar(32)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <index id="296" parent="262" name="PK___EFMigrationsHistory">

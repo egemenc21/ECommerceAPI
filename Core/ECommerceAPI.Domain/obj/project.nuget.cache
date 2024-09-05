@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "sMHzzIBwiwiY/+xY2k4SRf9B5AV0v0ZugcWLLe3HNKV40uB5J0F4024h91KYKinMwAwgk5Znpr1tox9AEfKBuQ==",
+  "dgSpecHash": "K05Ng2uUJz8=",
   "success": true,
-  "projectFilePath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/egemenc/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/egemenc/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

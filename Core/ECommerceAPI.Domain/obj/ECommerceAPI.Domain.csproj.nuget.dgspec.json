@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj": {}
+    "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj": {}
   },
   "projects": {
-    "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj": {
+    "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj",
+        "projectUniqueName": "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj",
         "projectName": "ECommerceAPI.Domain",
-        "projectPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj",
+        "projectPath": "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/ECommerceAPI.Domain.csproj",
         "packagesPath": "/home/egemenc/.nuget/packages/",
-        "outputPath": "/home/egemenc/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/obj/",
+        "outputPath": "/home/egemenc/my-projects/e-commerce-angular-dotnet/ECommerceAPI/Core/ECommerceAPI.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/egemenc/.nuget/NuGet/NuGet.Config"
@@ -48,12 +48,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.107/RuntimeIdentifierGraph.json"
         }
       }
     }
